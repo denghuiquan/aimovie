@@ -1,0 +1,13 @@
+.navlink {
+  font-weight: bolder;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.navlink.active {
+  color: aqua;
+  pointer-events: none;
+}
+.navlink:hover {
+  color: aqua;
+  text-decoration: none !important;
+}
