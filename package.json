@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next build && next export",
-    "serve:dev": "nodemon -r ./server/index.js",
-    "serve:prod": "NODE_ENV=production nodemon -r ./server/index.js"
+    "serve:dev": "nodemon ./server/index.js",
+    "serve:prod": "NODE_ENV=production nodemon ./server/index.js"
   },
   "dependencies": {
     "@babel/core": "^7.21.0",
